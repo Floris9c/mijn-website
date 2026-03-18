@@ -1,0 +1,33 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-kleur{
+    background-color: #1f2937;
+}
+
+.navbar-nav .nav-link{
+    color: #d1d5db;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #f59e0b;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+    font-weight: 600;
+}
+
+.carousel-foto {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
