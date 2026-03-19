@@ -23,7 +23,7 @@
   <script src="Js/script.js" defer></script>  
   <script src="js/Locatie.js" defer></script>
   <!-- eigen geschreven css voor jouw html-bestand -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css"> 
 </head>
 
 <body>
@@ -31,7 +31,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark header-kleur">
             <section class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/Logo.png" alt="Logo" width="71" height="55">
+                    <img src="assets/images/Logo.png" alt="Logo" height="70">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hoofdnavigatie"
@@ -121,7 +121,7 @@
                             <legend class="visually-hidden">Bericht</legend>
                                 <label for="message" class="form-label">Bericht</label>
                                 <textarea class="form-control" id="message" name="message" placeholder="Typ je bericht hier" required rows="5" ></textarea>
-                            <p class="invalid-feedback">Bericht mag niet leeg zijn.</p>
+                                <p class="invalid-feedback">Bericht mag niet leeg zijn.</p>
                         </fieldset>
                         
                         <br />
@@ -141,12 +141,15 @@
                 <section class="header-kleur text-white rounded p-4 h-100 shadow">
                     <h2 class="h3 mb-4">Contact</h2>
 
-                    <p class="mb-3"><strong>E-mail:</strong><br>Floris.cockx@gmail.com</p>
-                    <p class="mb-4"><strong>Telefoon:</strong><br>+32 476 216 978</p>
+                    <h3 class="h5 mb-1">E-mail</h3>
+                    <p class="mb-3">Floris.cockx@gmail.com</p>
+
+                    <h3 class="h5 mb-1">Telefoon</h3>
+                    <p class="mb-4">+32 476 216 978</p>
 
                     <h3 class="h5 mb-3">Volg mij</h3>
 
-                    <nav class="d-flex gap-3 fs-3">
+                    <nav class="d-flex gap-3 fs-5">
                         <a href="https://www.instagram.com/" target="_blank" class="text-white" aria-label="Instagram">
                             <i class="bi bi-instagram"></i>
                         </a>
@@ -159,7 +162,6 @@
                     </nav>
                     <br />
                     <h3 class="h5 mb-3">Mijn locatie</h3>
-
                     <img src="assets/images/map.png" alt="Kaart van mijn locatie" class="img-fluid rounded">
                 </section>
             </aside>
@@ -167,7 +169,7 @@
     </main>
 
     <footer class="header-kleur text-white text-center py-3">
-        <p class="sticky-bottom text-center mb-0">&copy; <span id="year"></span> Portfolio </p>
+        <p class="sticky-bottom text-center mb-0">&copy; <span id="year"></span> Portfolio</p>
     </footer>
 
 </body>
