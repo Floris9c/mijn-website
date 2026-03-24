@@ -32,4 +32,10 @@ header{
     object-fit: cover;
 }
 
+#leerpunten {
+    scroll-margin-top: 120px;
+}
 
+#projectoverzicht {
+    scroll-margin-top: 120px;
+}
