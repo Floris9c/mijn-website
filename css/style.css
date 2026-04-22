@@ -39,3 +39,7 @@ header{
 #projectoverzicht {
     scroll-margin-top: 120px;
 }
+
+#map {
+    height: 300px;
+}

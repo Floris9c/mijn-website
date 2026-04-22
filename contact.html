@@ -19,9 +19,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer>
     </script>
+    <!-- voeg het leaflet css-bestand toe om de kaart van standaard opmaak te voorzien -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+    <!-- voeg de leaflet.js javascript toe aan de pagina en check de integriteit ervan -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
     <!-- script voor de huidige jaar -->
-    <script src="Js/script.js" defer></script>  
-    <script src="js/Locatie.js" defer></script>
+    <script src="Js/script-jaar.js" defer></script>  
+    <script src="js/locatie.js" defer></script>
     <!-- eigen geschreven css voor jouw html-bestand -->
     <link rel="stylesheet" href="css/style.css"> 
 </head>
@@ -162,7 +170,7 @@
                     </nav>
                     <br />
                     <h3 class="h5 mb-3">Mijn locatie</h3>
-                    <img src="assets/images/map.png" alt="Kaart van mijn locatie" class="img-fluid rounded">
+                    <section id="map" class="rounded w-100" aria-label="Kaart van mijn locatie"></section>
                 </section>
             </aside>
         </section>
