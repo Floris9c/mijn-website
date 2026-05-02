@@ -45,15 +45,21 @@ header{
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #ff8800;
+  background-color: #f59e0b;
   color: white;
 }
 
 .accordion-button:focus {
   box-shadow: none;
-  border-color: #ff8800;
+  border-color: #f59e0b;
 }
 
 .progress-bar {
-  background-color: #ff8800; 
+  background-color: #f59e0b; 
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #f59e0b;
+    color: white;
 }
