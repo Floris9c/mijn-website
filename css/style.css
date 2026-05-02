@@ -43,3 +43,17 @@ header{
 #map {
     height: 300px;
 }
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff8800;
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: #ff8800;
+}
+
+.progress-bar {
+  background-color: #ff8800; 
+}
